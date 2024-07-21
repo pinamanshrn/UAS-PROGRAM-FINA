@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop - Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            padding: 40px;
+            background-color: #ffffff;
+            margin: 40px auto;
+            max-width: 1600px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2c5686;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap; /* Allow items to wrap onto multiple lines if needed */
+            gap: 40px; /* Space between items */
+            justify-content: center; /* Center items horizontally */
+        }
+
+        .product-item {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 400px; /* Adjust as needed */
+            width: 100%;
+            box-sizing: border-box;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .product-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-item img {
+            max-width: 150px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .product-item p {
+            margin: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        footer {
+            background-color: #2c5686;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Produk Kami</h2>
+        <p>Berikut adalah menu es terbaik kami:</p>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="coklat.png" alt="Ice Choco Creamy">
+                <p>Ice Choco Creamy</p>
+            </div>
+            <div class="product-item">
+                <img src="kopi.jpg" alt="Ice Coffee Aren">
+                <p>Ice Coffee Aren</p>
+            </div>
+            <div class="product-item">
+                <img src="redvelvet.jpg" alt="Ice Red Velvet">
+                <p>Ice Red Velvet</p>
+            </div>
+            <div class="product-item">
+                <img src="matcha.png" alt="Ice Matcha Latte">
+                <p>Ice Matcha Latte</p>
+            </div>
+            <div class="product-item">
+                <img src="taro.png" alt="Ice Taro">
+                <p>Ice Taro</p>
+            </div>
+            <div class="product-item">
+                <img src="thaitea.jpeg" alt="Ice Thai Tea">
+                <p>Ice Thai Tea</p>
+            </div>
+            <!-- Tambahkan produk lainnya di sini -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
